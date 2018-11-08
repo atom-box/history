@@ -1,0 +1,147 @@
+/* Based on CSS seen at github.com/verythorough and
+and cssTricks.com */
+
+/* who knew!  css can handle variables:; */
+:root {
+    --evGray: rgb(194, 186, 172); 
+    --evOrange: rgb(242, 131, 0);
+    --evWhite: rgb(240, 230, 230);
+    --evBlack: rgb(30, 30, 25);
+    --evYellow: rgb(253, 237, 34)
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: var(--evBlack);
+  color: var(--evOrange) ;
+}
+
+h2 {
+  color: var(--evWhite);
+}
+
+input {
+  background-color: var(--evYellow)
+}
+
+.directions {
+  font-style: italic;
+  color: var(--evWhite);
+}
+
+#temp {
+  color: blue;
+}
+
+li {
+  color: yellow;
+}
+
+li:nth-child(even) {
+    color: var(--evOrange);
+}
+
+
+
+/*
+#provenence {
+  color: white;
+}
+
+#site-header {
+  padding: 0.5em 2%;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 3em;
+  color: var(--skyColor);
+  margin: 0.2em;
+  text-shadow: 1px 1px yellow;
+
+}
+
+
+header, p {
+  xcolor: var(--palerSky);
+  font-weight: lighter;
+}
+
+
+/* (2) Anything besides span span span breaks the monoline.*/
+/* (3) PULLINg to the right should be doable though.*/
+/**/
+/**/
+
+
+.tight {
+  padding: auto, 0px;
+}
+
+span {
+  color: var(--lightRock);
+  text-align: right;
+  margin: 0px;
+  padding: 0px;
+} /* note SPECIFIC CHILD */
+
+.fab.fa-linkedin, .fab.fa-twitter, .fab.fa-github { 
+  color: var(--lightRock);
+  margin-left:  40px;
+  margin-right: 0px;
+}
+
+/*****footer end**********/
+
+.content {
+  background-color: var(--lightRock);
+  min-height: 160px; /* TODO units inconsistant... */
+
+}
+#site-header {
+  background-color: rgb(194, 186, 172);
+}
+
+#pond {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  max-height: 160px;
+}
+
+/* Dad !!!!!!!!!!! */
+/*******mothballed**/
+.bg-image {
+  background-image: url("images/dadsEnergy.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blox {
+  width: 120px;
+  height: 120px;
+  margin: 20px auto ;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  color: var(--lightRock);
+  background-color: var(--darkRock);
+  font-size: 26px;
+}
+
+
+/* links           */
+/*******************/
+a:xlink {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+*/
