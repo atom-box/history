@@ -88,7 +88,7 @@ init =
           """
         ]
         []
-        "fred"
+        ""
 
 
 
@@ -96,7 +96,7 @@ init =
 
 
 type Msg
-    = Add
+    = All
     | Filter String
 
 
@@ -109,7 +109,7 @@ update msg model =
                 , filter = filter
             }
 
-        Add ->
+        All ->
             { model
                 | entries = model.filter :: model.entries
                 , results = model.filter :: model.results
@@ -126,7 +126,7 @@ view model =
         [ h2 [] [ text "Searchable Bill of Rights:" ]
         , p [ class "directions" ] [ text direction1 ]
         , input [ placeholder "enter a search term", onInput Filter ] []
-        , button [ onClick Add ] [ text "Add New Amendment!" ]
+        , button [ onClick All ] [ text "Show All" ]
         , p [ class "directions" ] [ text blankLine ]
         , p [ class "directions" ] [ text direction2 ]
         , ul [] (List.map viewEntry model.results)
