@@ -35,11 +35,15 @@ type alias Model =
 
 
 {-
-   todo
-    Add directions.
-    Make the loading come from an external file, not hardcoded into page.elm
-    Make the content my BASH.
-    Add a button for a pastable input window.
+      todo
+   History browser
+   * write page.elm so it just serves a short list of things, no headline.  compiles to page.html <students add in the things themselves>
+   * add h1, h3 headlines (oops, no exposed) with purpose and your name
+   * cat .bash_history to history_november.txt
+   * write elm function to bring it in to the list
+   * graft on to html frame with the css
+   * stitch on the searcher
+
 -}
 
 
