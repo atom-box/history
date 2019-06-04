@@ -6,14 +6,13 @@ This project was my demo for Milwaukee Code Camp.
 [Run it](http://littlefurnace.com/elm/index.html)
 ## If you want to compile it:
 If you want to witness the full glory of [Elm](https://elm-lang.org/), and make this compile from Elm into compiled Javascript: <br/>
-0) Make sure you have Node and NPM.<br>
-1) install Elm on your machine:<br/>
+1) Make sure you have Node and NPM.<br>
+2) install Elm on your machine:<br/>
 `npm install -g elm`
 (Longer installation documentation is here: https://guide.elm-lang.org/install.html)<br/>
-2) clone this repository<br/>
-3a) Skip to 3b, or if you want to compile the elm source code <br/>
-you might need to do <br/>
+3) clone this repository<br/>
+Then you might need to do <br/>
 		`elm init`<br/>
-		`elm make page.elm --output monday.js`<br/>
-3b) when you double click assets/flood.html it should open up the compiled code called monday.js in your browser.  That's it.
+		`elm make page.elm `<br/>
+4) You should get a file, page.html that you can double click to open in your browser.  That's it.
 <br>![Handrawn Elm](https://github.com/atom-box/history/blob/master/elm.jpg)
