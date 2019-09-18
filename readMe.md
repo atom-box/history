@@ -1,7 +1,11 @@
 # Search bar for a web page
-As you type in terms, the page searches, without waiting for a button click. If you click the button, whatever you typed is dynamically appended to the Constitution (bypassing the entire 2/3 fo the States thing).  No, it is not persistant to a database.
+* As you type in terms, the page searches. 
+* If you click the button, whatever you typed is dynamically appended to the Constitution (bypassing that pesky 2/3 of the States approval thing). 
+* No, it is not persistant to a database.
 ## Milwaukee Code Camp
 This project was my demo for Milwaukee Code Camp. 
+## Short
+This is not a very long program but the Functional Programming was new to me.  So was the MODEL - UPDATE - VIEW paradigm.
 ## If you just want to make the final product work:
 [Run it](http://littlefurnace.com/elm/index.html)
 ## If you want to compile it:
