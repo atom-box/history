@@ -20,4 +20,4 @@ Then you might need to do <br/>
 		`elm init`<br/>
 		`elm make page.elm `<br/>
 4) You should get a file, page.html that you can double click to open in your browser.  That's it.
-<br>![Handrawn Elm](https://github.com/atom-box/history/blob/master/elm.jpg)
+<br>![Handrawn Elm logo](https://github.com/atom-box/history/blob/master/elm-drawn_260x158.png)
