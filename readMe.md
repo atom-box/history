@@ -1,5 +1,5 @@
+![Handrawn Elm logo](https://github.com/atom-box/history/blob/master/elm-drawn_260x158.png)
 # Search bar for a web page
-## If you just want to make the final product work:
 [Run it](http://littlefurnace.com/elm/index.html)
 * As you type in terms, the page searches. 
 * If you click the button, whatever you typed is dynamically appended to the Constitution (bypassing that pesky 2/3 of the States approval thing). 
@@ -14,7 +14,7 @@ A few resources:
 * The official [Elm page](https://elm-lang.org/).
 * A free [textbook](https://elmprogramming.com/).
 * Keyhole Software's [blog entry](https://keyholesoftware.com/2019/07/24/elm-language/ ) on Elm.
-<br><br>![Handrawn Elm logo](https://github.com/atom-box/history/blob/master/elm-drawn_260x158.png)
+<br><br>
 
 ## If you want to compile this file:
 If you want to witness the full glory of [Elm](https://elm-lang.org/), and make this compile from Elm into compiled Javascript: <br/>
